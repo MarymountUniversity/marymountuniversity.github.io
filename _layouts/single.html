@@ -45,7 +45,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        
 
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
@@ -64,7 +64,7 @@ layout: default
 		{% if page.ios %}<a href="{{ page.android }}" class="btn">{{ "IoS" | default: "IoS" }}</a></div>{% endif %}
         {% if page.web %}<div><a href="{{ page.web }}" class="btn">{{ "Web" | default: "Web" }}</a>{% endif %}
 		</div>
-      
+      {{ content }}
 		<div>
 		  <img src="{{ page.image }}" >
 		</div>
