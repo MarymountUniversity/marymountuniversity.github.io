@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Marymount Technology Projects"
+title: "Marymount University Software and Technology Projects"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Marymount University Software and Technology Projects
 
 Welcome to Marymount University's hub for cutting-edge software and technology projects. Here, you will find a comprehensive showcase of the innovative research and development initiatives spearheaded by our talented students and faculty. Our projects span a wide array of technological fields, demonstrating our commitment to excellence and innovation in the ever-evolving tech landscape.
 
