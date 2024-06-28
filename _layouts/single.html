@@ -59,9 +59,14 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %}
 		
-	 {% if page.android %}<div><a href="{{ page.android }}" class="btn">{{ "Android" | default: "Android" }}</a></div>{% endif %}
-        {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>
+		{% if page.android %}<div><a href="{{ page.android }}" class="btn">{{ "Android" | default: "Android" }}</a></div>{% endif %}
+        {% if page.web %}<div><a href="{{ page.web }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Web" }}</a></div>{% endif %}
+      {% if page.image %}
+		<div>
+		  <img src="{{ page.image }}" alt="Image description">
+		</div>
+	{% endif %}
+	  </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
