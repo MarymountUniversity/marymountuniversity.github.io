@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "News"
+    url: /year-archive/
+    
   - title: "Games"
     url: /games/
     
@@ -12,14 +15,13 @@ main:
   - title: "Cybersecurity"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+ # - title: "Portfolio"
+ #   url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+
     
-  - title: "CV"
-    url: /cv/
+ # - title: "CV"
+ #   url: /cv/
     
-  - title: "Guide"
-    url: /markdown/
+ # - title: "Guide"
+ 3   url: /markdown/
