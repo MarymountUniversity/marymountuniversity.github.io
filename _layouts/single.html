@@ -47,24 +47,25 @@ layout: default
       <section class="page__content" itemprop="text">
         
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% endif %}
+      {% if page.citation %}
+		  <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+		{% endif %}
+
+		{% if page.paperurl %}
+		  <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></p>
+		{% endif %}
+
+		{% if page.slidesurl %}
+		  <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+		{% endif %}
 		<div>
-		{% if page.image %}
+		
 		{% if page.android %}<a href="{{ page.android }}" class="btn">{{ "Android" | default: "Android" }}</a>{% endif %}
 		{% if page.ios %}<a href="{{ page.android }}" class="btn">{{ "IoS" | default: "IoS" }}</a>{% endif %}
         {% if page.web %}<a href="{{ page.web }}" class="btn">{{ "Web" | default: "Web" }}</a>{% endif %}
 		</div>
       {{ content }}
+	  {% if page.image %}
 		<div>
 		  <img src="{{ page.image }}" >
 		</div>
