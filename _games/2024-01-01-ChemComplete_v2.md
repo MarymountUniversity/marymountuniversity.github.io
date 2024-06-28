@@ -10,5 +10,5 @@ paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 android: 'https://play.google.com/'
 web: 'https://marymount.itch.io/chem-compete-ii'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
-image: 'chemcompetev2.png'
+image: 'images/chemcompetev2.png'
 ---
