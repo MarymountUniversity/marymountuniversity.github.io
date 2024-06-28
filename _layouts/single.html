@@ -60,9 +60,9 @@ layout: default
         {% endif %}
 		<div>
 		{% if page.image %}
-		{% if page.android %}<a href="{{ page.android }}" class="btn">{{ "Android" | default: "Android" }}</a></div>{% endif %}
-		{% if page.ios %}<a href="{{ page.android }}" class="btn">{{ "IoS" | default: "IoS" }}</a></div>{% endif %}
-        {% if page.web %}<div><a href="{{ page.web }}" class="btn">{{ "Web" | default: "Web" }}</a>{% endif %}
+		{% if page.android %}<a href="{{ page.android }}" class="btn">{{ "Android" | default: "Android" }}</a>{% endif %}
+		{% if page.ios %}<a href="{{ page.android }}" class="btn">{{ "IoS" | default: "IoS" }}</a>{% endif %}
+        {% if page.web %}<a href="{{ page.web }}" class="btn">{{ "Web" | default: "Web" }}</a>{% endif %}
 		</div>
       {{ content }}
 		<div>
