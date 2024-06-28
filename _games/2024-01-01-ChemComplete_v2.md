@@ -7,8 +7,8 @@ date: 2024-01-01
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-android: 'http://academicpages.github.io/files/paper1.pdf'
-site: 'https://marymount.itch.io/chem-compete-ii'
+android: 'https://play.google.com/'
+link: 'https://marymount.itch.io/chem-compete-ii'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 image: 'chemcompetev2.png'
 ---
