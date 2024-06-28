@@ -1,7 +1,7 @@
 ---
 title: "ChemComplete_V1"
 collection: games
-permalink: /games/2020-01-01-ChemComplete-v1
+permalink: /games/2020-01-01-ChemCompete-v1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2020-01-01
 venue: 'Journal 1'
