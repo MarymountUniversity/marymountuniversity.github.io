@@ -1,12 +1,15 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Games"
+    url: /games/
+    
+  - title: "XR/VR"
     url: /publications/
 
-  - title: "Talks"
+  - title: "AI/ML"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Cybersecurity"
     url: /teaching/    
     
   - title: "Portfolio"
