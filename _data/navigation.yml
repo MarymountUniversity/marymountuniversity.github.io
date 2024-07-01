@@ -6,8 +6,8 @@ main:
   - title: "Games"
     url: /games/
     
-  - title: "XR/VR"
-    url: /publications/
+  - title: "HCI/XR/VR"
+    url: /hci/
 
   - title: "AI/ML"
     url: /talks/    

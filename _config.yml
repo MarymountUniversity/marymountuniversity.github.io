@@ -206,7 +206,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  hci:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -255,10 +255,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _hci
   - scope:
       path: ""
-      type: publications
+      type: hci
     values:
       layout: single
       author_profile: true
