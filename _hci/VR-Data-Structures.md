@@ -1,7 +1,7 @@
 ---
 title: "Creating Tangible VR Spaces for Exploring Algorithm Complexity and Data Structures"
-collection: games
-permalink: /games/VR-Data-Structure
+collection: hci
+permalink: /hci/VR-Data-Structure
 excerpt: "This research explores the use of virtual reality (VR) in Computer Science education to enhance the visualization and understanding of algorithm complexity and data structures. The proposed VR system aims to provide undergraduate students with a more tangible and interactive learning experience, allowing them to interact with algorithms and data structures in a virtual environment. Through the implementation of immersive techniques and real-time visualization, students can manipulate and observe the behavior of these abstract concepts. The VR application covers topics such as algorithm analysis, queues, stacks, tree structures, and algorithmic complexity. The use of VR in Computer Science education has the potential to transform teaching methods and provide instructors with valuable supplementary materials. Future studies will evaluate the impact of VR on student learning outcomes, and the VR application will be made available for further research and instruction in the field." 
 date: 2023-01-01
 venue: 'IEEE Frontiers in Education Conference (FIE)'
