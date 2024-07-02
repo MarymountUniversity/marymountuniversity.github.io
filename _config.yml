@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Marymount Technology Projects"
+title                    : "Marymount Technology Research"
 title_separator          : "-"
 name                     : &name "Marymount University"
-description              : &description "Explore Marymount University's cutting-edge software and technology projects and discover the innovative research and development spearheaded by our talented students and faculty"
+description              : &description "Explore Marymount University's cutting-edge software and technology research and discover the innovative research and development spearheaded by our talented students and faculty"
 url                      : https://marymountuniversity.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "marymountuniversity/marymountuniversity.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "mu_tech_logo.jpg"
   name             : "Marymount"
   pronouns         : # example: "she/her"  
-  bio              : "Explore Marymount University's cutting-edge software and technology projects and discover the innovative research and development spearheaded by our talented students and faculty"
+  bio              : "Explore Marymount University's cutting-edge software and technology research and discover the innovative research and development spearheaded by our talented students and faculty"
   location         : "Arlington, VA"
   employer         : #"Red Brick University"
   uri              : https://marymount.edu/
